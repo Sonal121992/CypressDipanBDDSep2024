@@ -1,0 +1,20 @@
+[
+    {
+        "fn" : "sonal",
+        "ln" : "khante",
+        "em" : "sonalk@gmail.com",
+        "msg" : "cypress"
+    },
+    {
+        "fn" : "rahul",
+        "ln" : "sharma",
+        "em" : "rahuls@gmail.com",
+        "msg" : "playwright"
+    },
+    {
+        "fn" : "ketan",
+        "ln" : "lambat",
+        "em" : "ketanl@gmail.com",
+        "msg" : "sql"
+    }
+]
