@@ -6,7 +6,8 @@ Feature: Verify add to cart functionality
         And Select carrot and add to cart
         And Proceed to Check out
         Then Validate checkout page
-
+        
+@focus
     Scenario Outline: Verify add to cart functionality for multiple products
         Given Navigate to Web Page
         When Type <SearchBox> in search box click on search box

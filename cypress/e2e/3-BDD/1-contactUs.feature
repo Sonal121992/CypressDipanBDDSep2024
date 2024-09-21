@@ -6,6 +6,7 @@ Feature: I want to verify ContactUs page
         And Click on the Submit Button
         Then Verify the validate message
 
+@focus
     Scenario: Verify page for datatable
         Given Navigate to webpage
         When Enter the data from data table for all fields

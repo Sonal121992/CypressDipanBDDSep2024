@@ -1,0 +1,28 @@
+to use @variable for running single or only targeted test sceniro 
+followung lines need to save in cypress.config.js
+
+  env: {
+    "TAGS": "@smoke"
+  }, 
+
+
+  following commands is used to running
+  # npx cypress run --env TAGS="@smoke" --headed --browser edge
+
+  for focus tag use ==>
+
+  npx cypress run --env TAGS="@smoke" --headed --browser edge
+
+-------------------------------------------------
+
+create commandline command
+create command scripts in package.json like following
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smoke-test" : "npx cypress run --env TAGS='@smoke' --headed --browser edge"
+  },
+
+  to run command
+  npm run smoke-test
+
+  -------------------------------------------------

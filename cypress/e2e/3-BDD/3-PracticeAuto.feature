@@ -9,7 +9,7 @@ Feature: Want to test Automation Practice Login Page
         When Enter login uid and pw
         And Click on login Button
         Then Verify login page
-
+@focus
     # Scenario 2
     Scenario Outline: Verify login page for multiple data
         #Given is written above
